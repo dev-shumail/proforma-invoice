@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Proforma Invoice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Hanken Grotesk", "Times New Roman", Times, serif;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="max-width: 750px; margin: auto">
+      <!-- Header -->
+      <div
+        style="
+          margin: 3px 0px;
+          width: fit-content;
+          margin: auto;
+          overflow: hidden;
+          padding: 10px;
+        "
+      >
+        <table style="width: 100%; border-collapse: collapse">
+          <tr>
+            <td style="text-align: left; vertical-align: bottom; width: 175px">
+              <img
+                src="https://otoz.ai/otozai-v2/otozai-logo.png"
+                alt="Otoz"
+                style="width: 160px"
+              />
+            </td>
+            <td style="text-align: left; vertical-align: middle">
+              <div
+                style="
+                  font-size: 25px;
+                  font-weight: 800;
+                  margin: 0;
+                  padding: 0;
+                  color: #173559;
+                "
+              >
+                OTOZ.AI JAPAN
+              </div>
+              <div
+                style="
+                  font-size: 12px;
+                  font-weight: normal;
+                  margin: 2px 0 0 0;
+                  padding: 0;
+                "
+              >
+                2-10-13-301, Minami Azabu, Minato-ku, Tokyo, Japan, 106-0047
+              </div>
+              <div
+                style="
+                  font-size: 12px;
+                  font-weight: normal;
+                  margin: 2px 0 0 0;
+                  padding: 0;
+                "
+              >
+                TEL: +81 3 6435 2269
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div style="margin: auto; width: 100%">
+        <p style="text-align: center; font-size: larger; font-weight: 600">
+          Quote for: adeel.saleem@innov8.jp
+        </p>
+      </div>
+
+      <!-- Invoice Info -->
+      <div style="width: 100%; overflow: hidden; margin-top: 10px">
+        <table
+          style="
+            width: 48%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            font-size: 12px;
+            line-height: 1.4;
+            float: left;
+          "
+        >
+          <tr>
+            <td
+              style="
+                width: 90px;
+                vertical-align: top;
+                font-weight: bold;
+                padding: 0;
+              "
+            >
+              Messrs. :
+            </td>
+            <td style="vertical-align: top; padding: 0">
+              <div>Adeel Khan</div>
+              <div>AV.CIRCUNVALACION MZ F SITIO 57A IQUIQUE CHILE</div>
+              <div>TEL: +9212346567</div>
+              <div>EMAIL: adeel.saleem@innov8.jp</div>
+            </td>
+          </tr>
+        </table>
+
+        <table
+          style="
+            width: 50%;
+            text-align: right;
+            float: right;
+            border-collapse: collapse;
+            font-size: 12px;
+          "
+        >
+          <tbody>
+            <tr style="width: 100%; text-align: right">
+              <td style="width: 140px; font-weight: bold; text-align: right">
+                QUOTE DATE:
+              </td>
+              <td style="text-align: left; width: 50px; padding-left: 5px">
+                21-Mar-2025
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 140px; font-weight: bold; text-align: right">
+                QUOTE NUMBER:
+              </td>
+              <td style="text-align: left; width: 50px; padding-left: 5px">
+                3337024
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Shipped Per -->
+
+      <div style="width: 100%; overflow: hidden; margin-top: 10px">
+        <table
+          style="
+            width: 48%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            font-size: 12px;
+            line-height: 1.4;
+            float: left;
+          "
+        >
+          <tr>
+            <td
+              style="
+                width: 90px;
+                vertical-align: top;
+                font-weight: bold;
+                padding: 0;
+              "
+            >
+              From :
+            </td>
+            <td style="vertical-align: top; padding: 0">SHIMONOSEKI, JAPAN</td>
+          </tr>
+          <tr>
+            <td
+              style="
+                width: 90px;
+                vertical-align: top;
+                font-weight: bold;
+                padding: 0;
+              "
+            >
+              To :
+            </td>
+            <td style="vertical-align: top; padding: 0">IQUIQUE, CHILE</td>
+          </tr>
+          <tr>
+            <td
+              style="
+                width: 90px;
+                vertical-align: top;
+                font-weight: bold;
+                padding: 0;
+              "
+            >
+              Enrollment:
+            </td>
+            <td style="vertical-align: top; padding: 0"></td>
+          </tr>
+        </table>
+
+        <table
+          style="
+            width: 50%;
+            text-align: right;
+            float: right;
+            border-collapse: collapse;
+            font-size: 12px;
+          "
+        >
+          <tbody>
+            <tr style="width: 100%; text-align: right; width: fit-content">
+              <td>
+                <a
+                  href="javascript:void(0)"
+                  style="font-weight: 600; text-align: right; color: black"
+                  >Shipping mark</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-top: 5px; font-weight: 600; text-align: right">
+                OTOZ.AI
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 140px; font-weight: 600; text-align: right">
+                IQUIQUE
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Bank Account Information for USD Currency-->
+      <table
+        style="
+          width: 100%;
+          border-collapse: collapse;
+          font-size: 12px;
+          line-height: 1.4;
+        "
+      >
+        <tr>
+          <td
+            style="
+              width: 90px;
+              vertical-align: top;
+              font-weight: bold;
+              padding: 0;
+            "
+          >
+            Bank Account:
+          </td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            BANK NAME :
+          </td>
+          <td style="vertical-align: top; padding: 0">
+            CHOICE FINANCIAL GROUP
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 90px; vertical-align: top; padding: 0"></td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            SWIFT CODE :
+          </td>
+          <td style="vertical-align: top; padding: 0">CHFGUS44021</td>
+        </tr>
+        <tr>
+          <td style="width: 90px; vertical-align: top; padding: 0"></td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            BRANCH NAME :
+          </td>
+          <td style="vertical-align: top; padding: 0">(N/A)</td>
+        </tr>
+        <tr>
+          <td style="width: 90px; vertical-align: top; padding: 0"></td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            BRANCH ADDRESS :
+          </td>
+          <td style="vertical-align: top; padding: 0">(N/A)</td>
+        </tr>
+        <tr>
+          <td style="width: 90px; vertical-align: top; padding: 0"></td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            ACCOUNT NUMBER :
+          </td>
+          <td style="vertical-align: top; padding: 0">202312480358</td>
+        </tr>
+        <tr>
+          <td style="width: 90px; vertical-align: top; padding: 0"></td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            BENEFICIARY NAME :
+          </td>
+          <td style="vertical-align: top; padding: 0">OTOZ.AI INC</td>
+        </tr>
+        <tr>
+          <td style="width: 90px; vertical-align: top; padding: 0"></td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            ABA ROUTING # :
+          </td>
+          <td style="vertical-align: top; padding: 0">091311229</td>
+        </tr>
+      </table>
+
+      <!-- Bank Account Informatino for JPY Currency -->
+      <table
+        style="
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 15px;
+          font-size: 12px;
+          line-height: 1.4;
+        "
+      >
+        <tr>
+          <td
+            style="
+              width: 90px;
+              vertical-align: top;
+              font-weight: bold;
+              padding: 0;
+            "
+          >
+            Bank Account:
+          </td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            BANK NAME :
+          </td>
+          <td style="vertical-align: top; padding: 0">
+            SBI SUMISHIN NET BANK , LTD.TOKYO
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 90px; vertical-align: top; padding: 0"></td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            SWIFT CODE :
+          </td>
+          <td style="vertical-align: top; padding: 0">NTSSJPJT</td>
+        </tr>
+        <tr>
+          <td style="width: 90px; vertical-align: top; padding: 0"></td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            BRANCH NAME :
+          </td>
+          <td style="vertical-align: top; padding: 0">
+            HOJIN DAIICHI SHITEN(106)
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 90px; vertical-align: top; padding: 0"></td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            BRANCH ADDRESS :
+          </td>
+          <td style="vertical-align: top; padding: 0">
+            Sumitomo Fudosan Roppongi Grand Tower, 2-1, Roppongi 3-chome,
+            Minato-ku, Tokyo, Japan.
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 90px; vertical-align: top; padding: 0"></td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            ACCOUNT NUMBER :
+          </td>
+          <td style="vertical-align: top; padding: 0">2415988</td>
+        </tr>
+        <tr>
+          <td style="width: 90px; vertical-align: top; padding: 0"></td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            BENEFICIARY NAME :
+          </td>
+          <td style="vertical-align: top; padding: 0">otoz.Ai Japan K.K.</td>
+        </tr>
+        <tr>
+          <td style="width: 90px; vertical-align: top; padding: 0"></td>
+          <td style="width: 150px; vertical-align: top; padding: 0">
+            Account Type:
+          </td>
+          <td style="vertical-align: top; padding: 0">FUTSU</td>
+        </tr>
+      </table>
+
+      <!-- Important Notes -->
+      <table style="width: 100%; border-collapse: collapse">
+        <tr>
+          <td
+            style="
+              color: #000;
+              font-weight: bold;
+              font-size: 30px;
+              padding: 20px 0;
+              text-align: left;
+              width: 93px;
+              vertical-align: middle;
+            "
+          >
+            NOTE
+          </td>
+          <td
+            style="
+              background-color: white;
+              color: #173559;
+              vertical-align: middle;
+            "
+          >
+            <span style="font-weight: 800; font-size: 16px"
+              >If you want to proceed with the payment, please include your
+            </span>
+            <span style="font-weight: bold; color: #000; font-size: 22px"
+              >Email Address</span
+            >
+            <span style="font-weight: 800; font-size: 16px">and</span>
+            <span style="font-weight: bold; color: #000; font-size: 22px">
+              Vehicle’s Reference number</span
+            >
+
+            <span style="font-weight: 800; font-size: 16px">
+              on the Telegraphic Transfer (TT) slip
+            </span>
+          </td>
+        </tr>
+      </table>
+
+      <!-- Conditions -->
+      <table
+        style="
+          width: 100%;
+          border-collapse: collapse;
+          margin-bottom: 15px;
+          font-size: 12px;
+          line-height: 1.4;
+          float: left;
+        "
+      >
+        <tr>
+          <td
+            style="
+              width: 90px;
+              vertical-align: top;
+              font-weight: bold;
+              padding: 0;
+            "
+          >
+            Conditions:
+          </td>
+          <td style="vertical-align: middle; padding: 0; font-size: 10.5px">
+            * You may proceed with the payment using this quote; however, please
+            note that the vehicle is not yet reserved. If you wish to reserve
+            this vehicle, kindly contact us, and we will arrange the reservation
+            and issue the corresponding Proforma Invoice. <br />
+            * All bank charges and handling fees shall be the sole
+            responsibility of, and payable by, the Purchaser. <br />
+          </td>
+        </tr>
+      </table>
+      <!-- Vehicle Info Table -->
+
+      <table
+        width="100%"
+        cellspacing="0"
+        cellpadding="6"
+        style="border-collapse: collapse; border-bottom: 2px solid"
+      >
+        <thead
+          style="
+            background: #f6bb3b;
+            border-top: 2px solid;
+            border-bottom: 2px solid;
+          "
+        >
+          <tr>
+            <th align="left" style="padding: 5px 4px">Ref No.</th>
+            <th align="left" style="padding: 5px 4px">Description</th>
+            <th align="center" style="padding: 5px 4px">Quantity</th>
+            <th align="right" style="padding: 5px 4px">Unit Price</th>
+            <th align="right" style="padding: 5px 4px">Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 5px 4px">BX202525</td>
+            <td style="padding: 5px 4px">
+              TOYOTA Ractis 2010/6 DBA-SCP100<br />
+              CHASSIS NO.: SCP100-2003070<br />
+              ENGINE: 1,290 CC | Transmission: Automatic<br />
+              Mileage: 71,314 KM | Fuel: Petrol | Color: Silver <br />
+              DIMENSION(LxWxH): 10.948 M3(395x169x164 cm)*
+            </td>
+            <td style="padding: 5px 4px; vertical-align: bottom" align="center">
+              1 UNIT
+            </td>
+            <td
+              style="
+                padding: 5px 4px;
+                vertical-align: bottom;
+                font-family: sans-serif;
+              "
+              align="right"
+            >
+              US$ 1,871.00
+            </td>
+            <td
+              style="
+                padding: 5px 4px;
+                vertical-align: bottom;
+                font-family: sans-serif;
+              "
+              align="right"
+            >
+              US$ 1,871.00
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Summary Total of the units -->
+
+      <div style="margin-top: 10px">
+        <table
+          width="100%"
+          cellspacing="0"
+          cellpadding="6"
+          style="border-collapse: collapse"
+        >
+          <tbody>
+            <tr>
+              <td style="padding: 5px 4px"></td>
+              <td
+                style="padding: 5px 4px; font-size: 16px; font-weight: 600"
+                align="right"
+              >
+                TOTAL
+              </td>
+              <td
+                style="
+                  padding: 5px 4px;
+                  vertical-align: bottom;
+                  font-size: 16px;
+                  font-weight: 600;
+                "
+                align="center"
+              >
+                1 UNIT(s)
+              </td>
+              <td
+                style="padding: 5px 4px; vertical-align: bottom"
+                align="right"
+              ></td>
+              <td
+                style="padding: 5px 4px; vertical-align: bottom"
+                align="right"
+              ></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Instructions -->
+
+      <div style="width: 100%">
+        <div style="width: 70%; float: left"></div>
+        <div style="width: 30%; float: right; text-align: right">
+          <p style="font-size: 14px">CIF KARACHI</p>
+          <p
+            style="
+              font-size: 16px;
+              font-weight: 600;
+              font-family: sans-serif;
+              margin-top: 5px;
+            "
+          >
+            US$ 1,871.00
+          </p>
+        </div>
+
+        <div style="width: 70%; float: left; margin-top: 60px">
+          <p style="font-size: 15px; font-weight: 600">
+            *The actual dimension may differ from the above one.
+          </p>
+          <p style="font-weight: 500; margin-top: 2px">
+            QUOTE FOR: adeel.saleem@innov8.jp
+          </p>
+        </div>
+
+        <div style="float: right">
+          <div style="margin-top: 15px"></div>
+          <!-- <div
+            style="
+              margin-top: 60px;
+              border: 1px dashed black;
+              width: 180px;
+              height: 1px;
+            "
+          ></div> -->
+          <p
+            style="
+              margin-top: 1px;
+              font-weight: 500;
+              font-size: 13px;
+              margin-top: 50px;
+            "
+          >
+            OTOZ.AI JAPAN
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
